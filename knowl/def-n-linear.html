@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="definition definition-like"><h2 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">10.1</span><span class="period">.</span><span class="space"> </span><span class="title">Multilinearität.</span>
+</h2> <ol class="lower-alpha">
+<li><div class="para logical">
+<div class="para">Eine Abbildung <span class="process-math">\(f: V^n \rightarrow W\)</span> heißt <span class="process-math">\(n\)</span>-linear (multilinear), wenn gilt:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{split}
+&amp;:\iff f \text{ ist linear in jedem Faktor von $V^n$}\\
+&amp;:\iff \text{Für jedes $j\in \set{1,\dots, n},
+\forall (v_1, \dots, v_{n-1}) \in V^{n-1}$ gilt:}\\
+&amp;V\rightarrow W:
+v\mapsto f(v_1, \dots, v_{j-1, \underbrace{v}_{\text{Stelle } j}, v_j,
+\dots,
+v_{n-1}})
+\text{ ist linear.}
+\end{split}
+\end{equation*}
+</div>
+</div></li>
+<li><div class="para">Gilt in (a) <span class="process-math">\(W = K\text{,}\)</span> so heißt <span class="process-math">\(f\)</span> <span class="process-math">\(n\)</span>-Linearform.</div></li>
+<li><div class="para">
+<span class="process-math">\(\Lin_n(V,W) :=\)</span> Menge aller <span class="process-math">\(n\)</span>-linearen Abbildungen <span class="process-math">\(V^n
+\rightarrow W\text{.}\)</span>
+</div></li>
+<li><div class="para">
+<span class="process-math">\(f\in \Lin_n(V,W)\)</span> heißt <dfn class="terminology">alternierend</dfn> <span class="process-math">\(:\iff
+\forall (v_1, \dots, v_n)\in V^n,
+\exists 1\leq i &lt; j \leq n\)</span> mit <span class="process-math">\(v_i = v_j\text{,}\)</span> so gilt <span class="process-math">\(f(v_1,
+\dots, v_n) = 0\text{.}\)</span>
+</div></li>
+<li><div class="para"><span class="process-math">\(\Alt_n(V,W) := \set{f\in \Lin_n(V,W) \mid f \text{ ist alternierend}}\text{.}\)</span></div></li>
+</ol> <div class="para">Bemerkung: <span class="process-math">\(\Lin_1 (V,W) = \Lin(V,W)\text{.}\)</span>
+</div></article><span class="incontext"><a href="determinanten.html#def-n-linear" class="internal">in-context</a></span>
+</body>
+</html>
