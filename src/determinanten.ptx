@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="determinanten">
+    <title>Determinanten</title>
+    <p> Sei <m>K</m> ein Körper. Seien <m>V</m>, <m>W</m> <m>K</m>-Vektorräume.</p>
+
+    <definition xml:id="def-n-linear">
+        <title>Multilinearität</title>
+        <statement>
+            <ol marker="(a)">
+                <li>
+                    <p> Eine Abbildung <m>f: V^n \rightarrow W</m> heißt <m>n</m>-linear
+                        (multilinear), wenn gilt: <me>\begin{split}
+                            &amp;:\iff f \text{ ist linear in jedem Faktor von $V^n$}\\
+                            &amp;:\iff \text{Für jedes $j\in \set{1,\dots, n},
+                            \forall (v_1, \dots, v_{n-1}) \in V^{n-1}$ gilt:}\\
+                            &amp;V\rightarrow W:
+                            v\mapsto f(v_1, \dots, v_{j-1, \underbrace{v}_{\text{Stelle } j}, v_j,
+                        \dots,
+                            v_{n-1}})
+                            \text{ ist linear.}
+                            \end{split}
+                        </me>
+                    </p>
+                </li>
+                <li>
+                    <p> Gilt in (a) <m>W = K</m>, so heißt <m>f</m> <m>n</m>-Linearform. </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\Lin_n(V,W) :=</m> Menge aller <m>n</m>-linearen Abbildungen <m>V^n
+                        \rightarrow W</m>.</p>
+                </li>
+                <li>
+                    <p>
+                        <m>f\in \Lin_n(V,W)</m> heißt <term>alternierend</term>
+                        <m>:\iff
+                            \forall (v_1, \dots, v_n)\in V^n,
+                            \exists 1\leq i &lt; j \leq n</m> mit <m>v_i = v_j</m>, so gilt <m>f(v_1,
+                        \dots, v_n) = 0</m>. </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\Alt_n(V,W) := \set{f\in \Lin_n(V,W) \mid f \text{ ist alternierend}}</m>.
+                    </p>
+                </li>
+            </ol>
+            <p>
+                Bemerkung: <m>\Lin_1 (V,W) = \Lin(V,W)</m>. </p>
+        </statement>
+    </definition>
+
+    <lemma xml:id="lem-alt-n-k-uvr">
+        <statement>
+            <p>
+                <m>\Alt_n(V,W) \subseteq \Lin_n(V,W) \subseteq \Abb(V^n, W)</m>
+                sind jeweils <m>K</m>-Untervektorräume.
+            </p>
+            <!-- <p>
+                Beispiel: <m>A \in M_{n\times n}(K)</m>
+                <me>
+            \begin{aligned}
+                        \implies f:\: V_n(K)^2 &amp;\rightarrow K,\\
+            (v_1, v_2) &amp;\mapsto v_1^T \cdot A \cdot v_2 \text{ ist $2$-linear.}
+                    \end{aligned}
+            </me>
+            </p> -->
+        </statement>
+    </lemma>
+
+    <definition xml:id="def-charakteristik">
+        <title>Charakteristik</title>
+
+
+        <statement>
+            <p>
+                Die <term>Charakteristik</term> von <m>K</m> ist definiert als
+                <me>
+                    \operatorname{char} K =
+                    \begin{cases}
+                        \min \set{n\in \N \mid n\cdot 1_k = 0_k},
+                        &amp; \text{falls } \exists n\in \N \text{ mit } n\cdot 1_k = 0_k\\
+                        0, &amp;\text{sonst}
+                    \end{cases}
+                </me>
+                <m>\char(K)</m> ist <m>0</m> oder eine Primzahl.
+            </p>
+        </statement>
+    </definition>
+
+
+</section>
+
+
+

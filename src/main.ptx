@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<docinfo>
+		<macros>
+			\newcommand{\set}[1]{\{\,#1\,\}}
+			\newcommand*{\coloniff}{\ratio\Leftrightarrow}
+			\newcommand*{\colonLeftrightarrow}{\ratio\Leftrightarrow}
+			\renewcommand{\implies}{\Rightarrow}
+			\renewcommand{\impliedby}{\Leftarrow}
+			\renewcommand{\iff}{\Leftrightarrow}
+			\newcommand{\definedAs}{\ratio\Leftrightarrow}
+			\newcommand{\perc}[1]{#1\,\%}
+
+			\def\R{\mathbb{R}}
+			\def\N{\mathbb{N}}
+			\newcommand{\Lin}{\operatorname{Lin}}
+			\newcommand{\Alt}{\operatorname{Alt}}
+			\newcommand{\Abb}{\operatorname{Abb}}
+			\newcommand{\char}{\operatorname{char}}
+			\let\bar=\overline
+			\def\Span{\operatorname{Span}}
+			\def\Nul{\operatorname{Nul}}
+		</macros>
+	</docinfo>
+
+	<article xml:id="lineare-algebra-I">
+		<title>Lineare Algebra I</title>
+
+
+		<frontmatter xml:id="frontmatter">
+			<titlepage>
+				<author>
+					<personname>Universität Heidelberg</personname>
+					<department>Mathematikon</department>
+				</author>
+				<date>
+					<today />
+				</date>
+			</titlepage>
+
+			<colophon>
+				<!-- <website>
+					<name>
+						<c>example.org</c>
+					</name>
+				<address>https://example.org</address>
+				</website> -->
+				<copyright>
+					<year>2023</year>
+					<holder>Lineare Algebra</holder>
+					<shortlicense> This work does not have a license yet
+						as a proper license has yet to be found.
+					</shortlicense>
+				</copyright>
+			</colophon>
+		</frontmatter>
+
+		<section xml:id="eins">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="zwei">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="drei">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="vier">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="fuenf">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="sechs">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="sieben">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="acht">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<section xml:id="neun">
+			<title>Todo</title>
+			<p>Dummy text.</p>
+		</section>
+
+		<!-- <section xml:id="determinanten">
+            <title>Determinanten</title>
+            <p>
+		sample
+            </p>
+            <xi:include href="./determinanten.ptx" />
+        </section> -->
+
+		<xi:include href="./determinanten.ptx" />
+	</article>
+</pretext>
